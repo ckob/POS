@@ -50,7 +50,6 @@ public class Sale {
 
         Catalog catalog = new Catalog("Roba mercadona");
 
-
         catalog.add(new Product(481867450, "Pantalons vermells", "Mercadona", 20));
         catalog.add(new Product(481867451, "Pantalons negres", "Mercadona", 20));
         catalog.add(new Product(481867452, "Pantalons blaus", "Mercadona", 20));
@@ -61,7 +60,6 @@ public class Sale {
         catalog.add(new Product(516724322, "Samarreta blava", "Mercadona", 15));
         catalog.add(new Product(516724323, "Samarreta groga", "Mercadona", 15));
         catalog.add(new Product(516724324, "Samarreta violeta", "Mercadona", 15));
-
 
         Scanner sc = new Scanner(System.in);
         while (true) {
