@@ -50,6 +50,7 @@ public class Sale {
 
         Catalog catalog = new Catalog("Roba mercadona");
 
+
         catalog.add(new Product(481867450, "Pantalons vermells", "Mercadona", 20));
         catalog.add(new Product(481867451, "Pantalons negres", "Mercadona", 20));
         catalog.add(new Product(481867452, "Pantalons blaus", "Mercadona", 20));
